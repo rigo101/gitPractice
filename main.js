@@ -8,3 +8,6 @@ const count = birthDate => {
 
 greet('Grumpy Kittens', 'Moon');
 count(2021);
+
+const cheer = param => console.log(`Cheer for the ${param}`);
+cheer('Cheese');
