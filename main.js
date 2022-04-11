@@ -1,4 +1,4 @@
-const greet = name => console.log(name);
+const greet = (name, location) => console.log(name, location);
 
 const count = birthDate => {
     const today = new Date();
@@ -6,5 +6,5 @@ const count = birthDate => {
     console.log((year - birthDate) * 12);
 };
 
-greet('Grumpy Kittens');
+greet('Grumpy Kittens', 'Moon');
 count(2021);
