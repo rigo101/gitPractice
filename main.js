@@ -6,6 +6,5 @@ const count = birthDate => {
     console.log((year - birthDate) * 12);
 };
 
-
-greet('Grumpy Cats');
+greet('Grumpy Kittens');
 count(2021);
