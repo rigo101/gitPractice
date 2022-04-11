@@ -6,5 +6,5 @@ const count = birthDate => {
 
 const greet = name => console.log(name);
 
-greet('Grumpy Cat');
+greet('Grumpy Kittens');
 count(2021);
